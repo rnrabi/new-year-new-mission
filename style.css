@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* common css */
+.ful-section {
+    max-width: 1600px;
+}
+
+.section-content {
+    width: 82%;
+    margin: 0 auto;
+}
+
+/* common css */
+
+.head-section {
+    background-image: url('resources/Banner\ Image.png');
+    height: 420px;
+    border-radius: 16px;
+    padding-top: 180px;
+    /* background: linear-gradient();  */
+}
+
+.head-section h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.head-section h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    width: 60%;
+    margin: 0 auto;
+
+}
+
+/* *************** */
+.new-year {
+    text-align: center;
+}
+
+.new-year h2 {
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+    margin: 120px 0 48px 0;
+}
+
+.new-year p {
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.new-year h3 {
+    color: #070211;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.new-year-pic {
+    width: 60%;
+    max-width: 802px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+.new-year-pic img{
+    width: 100%;
+}
