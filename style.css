@@ -148,7 +148,6 @@
     text-align: center;
     margin-bottom: 120px;
     padding-top: 175px;
-    border-bottom: 2px solid red;
 }
 
 .place h2 {
@@ -253,6 +252,7 @@
 /* ***************** */
 footer {
     background: #070211;
+    margin-bottom: 120px;
 }
 
 .ftr-content {
@@ -293,7 +293,6 @@ a {
 }
 
 .second-footer {
-    /* text-align: center; */
     display: flex;
     gap: 20px;
     justify-content: center;
@@ -306,6 +305,7 @@ a {
 .third-footer {
     display: flex;
     justify-content: space-between;
+    margin-top: 130px;
 }
 
 .third-footer p {
@@ -327,7 +327,6 @@ a {
 /* *********** */
 .portfolio-heading {
     width: 67%;
-
 }
 
 .portfolio-heading h4 {
@@ -439,6 +438,7 @@ a {
 /* *********************** */
 .holyday {
     text-align: center;
+    margin-bottom: 158px;
 }
 
 .holy-text h3 {
@@ -476,4 +476,29 @@ a {
     font-weight: 500;
     line-height: 32px;
     margin-bottom: 68px;
+}
+.three-images{
+    display: flex;
+    justify-content: end;
+    position: relative;
+}
+.three-images .img1{
+    position: absolute;
+    position: absolute;
+    width: 60%;
+    left: 53px;
+    bottom: -178px;
+}
+.three-images .img2{
+    position: absolute;
+    position: absolute;
+    width: 20%;
+    right: 230px;
+    top: 77px;
+}
+.three-images .img3{
+    width: 32%;
+}
+.last-image .img4{
+    width: 100%;
 }
