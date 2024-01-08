@@ -148,7 +148,7 @@
     text-align: center;
     margin-bottom: 120px;
     padding-top: 175px;
-    /* border-bottom: 2px solid red; */
+    border-bottom: 2px solid red;
 }
 
 .place h2 {
@@ -272,7 +272,8 @@ hr {
     justify-content: space-between;
     margin-bottom: 0;
 }
-.fa-phone-volume{
+
+.fa-phone-volume {
     margin-bottom: 0;
 }
 
@@ -324,10 +325,11 @@ a {
 }
 
 /* *********** */
-.portfolio-heading{
+.portfolio-heading {
     width: 67%;
-    
+
 }
+
 .portfolio-heading h4 {
     color: #F00;
     font-family: Inter, serif;
@@ -347,18 +349,89 @@ a {
 
 .portfolio-heading p {
     color: rgba(7, 2, 17, 0.60);
-    font-family: Inter ,serif;
+    font-family: Inter, serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
     margin-bottom: 48px;
 }
-.portfolio-galary{
+
+.portfolio-galary {
     display: grid;
-    grid-template-columns: repeat(3 , 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     margin-bottom: 120px;
 }
-.portfolio-galary div img{
+
+.portfolio-galary div img {
     width: 100%;
+}
+
+/* ***************** */
+.best-offer {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.best-offer .left {
+    width: 30%;
+}
+
+.best-offer .left h3 {
+    color: #F00;
+    font-family: Inter, serif;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.best-offer .left h2 {
+    color: #070211;
+    font-family: Merriweather, serif;
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.best-offer .left p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter, serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.best-offer .middle {
+    width: 25%;
+}
+
+.best-offer .middle img {
+    width: 100%;
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 20px;
+}
+
+.best-offer .right {
+    width: 30%;
+    padding-left: 60px;
+}
+
+.best-offer .right h2 {
+    color: #F00;
+    font-family: Inter, serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.best-offer .right p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter , serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+
 }
