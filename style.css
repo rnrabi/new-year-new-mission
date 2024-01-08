@@ -429,9 +429,51 @@ a {
 
 .best-offer .right p {
     color: rgba(7, 2, 17, 0.60);
-    font-family: Inter , serif;
+    font-family: Inter, serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
 
+}
+
+/* *********************** */
+.holyday {
+    text-align: center;
+}
+
+.holy-text h3 {
+    color: #070211;
+    font-family: Inter, serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.holy-text h2 {
+    margin-top: 10px;
+    margin-bottom: 28px;
+}
+
+.holy-text .holydays {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather, serif;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.holy-text .sales {
+    color: #070211;
+    font-family: Merriweather, serif;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.holy-text p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter ,serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 68px;
 }
