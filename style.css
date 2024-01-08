@@ -16,11 +16,10 @@
 /* common css */
 
 .head-section {
-    background-image: url('resources/Banner\ Image.png');
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) ,url('resources/Banner\ Image.png') ;
     height: 420px;
     border-radius: 16px;
     padding-top: 180px;
-    /* background: linear-gradient();  */
 }
 
 .head-section h3 {
@@ -87,7 +86,7 @@
 
 /* ***************** */
 .welcome {
-    background-image: url('resources/Vectorrr.png');
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) ,url('resources/Vectorrr.png');
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 16px;
