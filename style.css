@@ -360,7 +360,10 @@ a {
     gap: 10px;
     margin-bottom: 120px;
 }
-
+.portfolio-galary div img:hover{
+    transform: rotate(45deg);
+    transition: transform 1s linear 0.5s; 
+}
 .portfolio-galary div img {
     width: 100%;
 }
