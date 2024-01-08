@@ -270,6 +270,10 @@ hr {
 .first-footer {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 0;
+}
+.fa-phone-volume{
+    margin-bottom: 0;
 }
 
 .first-footer p,
